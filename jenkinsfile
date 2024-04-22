@@ -1,0 +1,76 @@
+pipeline {
+    agent any
+    //parameters {
+    //    string(name: "NUKA", description: "Pls enter smth")
+    //}
+    options {
+        timeout(time: 300, unit: 'SECONDS')
+    }
+    stages {
+
+        stage("Checkout Git") {
+            steps {
+                //echo "sfs: ${params.NUKA}"
+                git branch: 'main', url: 'https://github.com/elestopadov/java-example-apps.git'
+            }
+        }
+        stage("Unit Test") {
+            steps {
+                echo 'Running unit-tests'
+                sleep 1
+            }
+        }
+        stage("Security Test") {
+            steps {
+                echo 'Running unit-tests'
+                sleep 1
+            }
+        }
+        stage("Quality Test") {
+            steps {
+                echo 'Running quality tests'
+                sleep 1
+            }
+        }
+        stage("Build") {
+            steps {
+                echo 'Building artifact'
+                sleep 2
+                sh 'ls -lha'
+            }
+        }
+        stage("Deploy") {
+            steps {
+                echo 'Deploying artifact'
+                sleep 2
+            }
+        }
+        stage("Acceptance Tests") {
+            steps {
+                echo 'Running Acceptance Tests'
+                
+                script {
+                    def browsers = ["Edge", "Firefox", "Chromium"]
+                    for (int i = 0; i < browsers.size(); i++) {
+                        echo "Acceptance testing in ${browsers[i]} browser"
+                        sleep 1
+                    }
+                }
+                
+            }
+        }
+        
+    }
+    post {
+        success {
+            mail to: 'ksurusov@mail.ru',
+            subject: "Completed Pipeline: ${currentBuild.fullDisplayName}",
+            body: "Your build completed, please check: ${env.BUILD_URL}"
+        }
+        failure {
+            mail to: 'ksurusov@mail.ru',
+            subject: "Failure project - Jenkins Pipeline: ${currentBuild.fullDisplayName}",
+            body: "Your build FAILED, please check: ${env.BUILD_URL}"
+        }
+    }
+}

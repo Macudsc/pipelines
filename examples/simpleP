@@ -1,0 +1,24 @@
+pipeline{
+  agent any
+  parameters {
+    string(name: "NUKA", description: "Pls enter smth")
+  }
+  environment {
+    TZ = "Europe/Moscow"
+  }
+  stages {
+    stage('Build') {
+      steps {
+        echo "Стапс: ${params.NUKA}"
+        //echo ${params.NUKA}
+        echo "${env.BUILD_TAG}"
+        sh "date"
+      }
+    }
+    stage('Test') {
+      steps {
+        echo "${env.HOSTNAME}"
+      }
+    }
+  }
+}

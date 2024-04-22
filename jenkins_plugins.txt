@@ -1,0 +1,115 @@
+analysis-model-api                 Analysis Model API Plugin                       12.1.0
+ansicolor                          AnsiColor                                       1.0.4
+ant                                Ant Plugin                                      497.v94e7d9fffa_b_9
+antisamy-markup-formatter          OWASP Markup Formatter Plugin                   162.v0e6ec0fcfcf6
+apache-httpcomponents-client-4-api Apache HttpComponents Client 4.x API Plugin     4.5.14-208.v438351942757
+artifactory                        Artifactory Plugin                              4.0.6
+asm-api                            ASM API Plugin                                  9.7-33.v4d23ef79fcc8
+aws-credentials                    AWS Credentials Plugin                          231.v08a_59f17d742
+aws-java-sdk-ec2                   Amazon Web Services SDK :: EC2                  1.12.671-445.ve02f9b_558f2e (1.12.696-451.v0651a_da_9ca_ec)
+aws-java-sdk-minimal               Amazon Web Services SDK :: Minimal              1.12.671-445.ve02f9b_558f2e (1.12.696-451.v0651a_da_9ca_ec)
+backup                             Backup plugin                                   1.6.1
+bootstrap5-api                     Bootstrap 5 API Plugin                          5.3.3-1
+bouncycastle-api                   bouncycastle API Plugin                         2.30.1.77-225.v26ea_c9455fd9
+branch-api                         Branch API Plugin                               2.1152.v6f101e97dd77
+build-timeout                      Build Timeout                                   1.32
+caffeine-api                       Caffeine API Plugin                             3.1.8-133.v17b_1ff2e0599
+checks-api                         Checks API plugin                               2.2.0
+cloudbees-folder                   Folders Plugin                                  6.901.vb_4c7a_da_75da_3
+command-launcher                   Command Agent Launcher Plugin                   107.v773860566e2e
+commons-lang3-api                  commons-lang3 v3.x Jenkins API Plugin           3.13.0-62.v7d18e55f51e2
+commons-text-api                   commons-text API Plugin                         1.11.0-95.v22a_d30ee5d36
+config-file-provider               Config File Provider Plugin                     968.ve1ca_eb_913f8c
+credentials-binding                Credentials Binding Plugin                      657.v2b_19db_7d6e6d
+credentials                        Credentials Plugin                              1337.v60b_d7b_c7b_c9f
+dark-theme                         Dark Theme                                      439.vdef09f81f85e
+data-tables-api                    DataTables.net API Plugin                       2.0.3-1
+deploy                             Deploy to container Plugin                      1.16
+display-url-api                    Display URL API                                 2.200.vb_9327d658781
+durable-task                       Durable Task Plugin                             550.v0930093c4b_a_6
+echarts-api                        ECharts API Plugin                              5.5.0-1
+email-ext                          Email Extension Plugin                          2.105
+external-monitor-job               External Monitor Job Type Plugin                215.v2e88e894db_f8
+font-awesome-api                   Font Awesome API Plugin                         6.5.1-3
+forensics-api                      Forensics API Plugin                            2.4.0
+git-client                         Git client plugin                               4.7.0
+git                                Git plugin                                      5.2.1
+github-api                         GitHub API Plugin                               1.318-461.v7a_c09c9fa_d63
+github-branch-source               GitHub Branch Source Plugin                     1785.v99802b_69816c (1787.v8b_8cd49a_f8f1)
+github                             GitHub plugin                                   1.38.0
+gradle                             Gradle Plugin                                   2.10 (2.11)
+gson-api                           Gson API Plugin                                 2.10.1-15.v0d99f670e0a_7
+hashicorp-vault-plugin             HashiCorp Vault Plugin                          367.v8a_1ee1cccf3a
+instance-identity                  Instance Identity                               185.v303dc7c645f9
+ionicons-api                       Ionicons API                                    70.v2959a_b_74e3cf
+jackson2-api                       Jackson 2 API Plugin                            2.17.0-379.v02de8ec9f64c
+jakarta-activation-api             Jakarta Activation API                          2.1.3-1
+jakarta-mail-api                   Jakarta Mail API                                2.1.3-1
+javadoc                            Javadoc Plugin                                  243.vb_b_503b_b_45537
+javax-activation-api               JavaBeans Activation Framework (JAF) API        1.2.0-6
+javax-mail-api                     JavaMail API                                    1.6.2-9
+jaxb                               JAXB plugin                                     2.3.9-1
+jdk-tool                           Oracle Java SE Development Kit Installer Plugin 73.vddf737284550
+jersey2-api                        Jersey 2 API                                    2.42-147.va_28a_44603b_d5
+jjwt-api                           Java JSON Web Token (JJWT) Plugin               0.11.5-112.ve82dfb_224b_a_d
+jobConfigHistory                   Job Configuration History Plugin                1229.v3039470161a_d
+joda-time-api                      Joda Time API Plugin                            2.12.7-29.v5a_b_e3a_82269a_
+jquery3-api                        JQuery3 API Plugin                              3.7.1-2
+jsch                               JSch dependency plugin                          0.2.16-86.v42e010d9484b_
+json-api                           JSON Api Plugin                                 20240303-41.v94e11e6de726
+json-path-api                      JSON Path API Plugin                            2.9.0-58.v62e3e85b_a_655
+junit                              JUnit Plugin                                    1265.v65b_14fa_f12f0
+ldap                               LDAP Plugin                                     719.vcb_d039b_77d0d
+mailer                             Mailer Plugin                                   472.vf7c289a_4b_420
+matrix-auth                        Matrix Authorization Strategy Plugin            3.2.2
+matrix-project                     Matrix Project Plugin                           822.824.v14451b_c0fd42
+maven-plugin                       Maven Integration plugin                        3.23
+mina-sshd-api-common               Mina SSHD API :: Common                         2.12.1-101.v85b_e08b_780dd
+mina-sshd-api-core                 Mina SSHD API :: Core                           2.12.1-101.v85b_e08b_780dd
+okhttp-api                         OkHttp Plugin                                   4.11.0-172.vda_da_1feeb_c6e
+pam-auth                           PAM Authentication plugin                       1.10
+parameterized-trigger              Parameterized Trigger plugin                    787.v665fcf2a_830b_
+periodicbackup                     Periodic Backup                                 2.0
+pipeline-build-step                Pipeline: Build Step                            540.vb_e8849e1a_b_d8
+pipeline-github-lib                Pipeline: GitHub Groovy Libraries               42.v0739460cda_c4
+pipeline-graph-analysis            Pipeline Graph Analysis Plugin                  216.vfd8b_ece330ca_
+pipeline-groovy-lib                Pipeline: Groovy Libraries                      704.vc58b_8890a_384
+pipeline-input-step                Pipeline: Input Step                            491.vb_07d21da_1a_fb_
+pipeline-milestone-step            Pipeline: Milestone Step                        119.vdfdc43fc3b_9a_
+pipeline-model-api                 Pipeline: Model API                             2.2184.v0b_358b_953e69 (2.2198.v41dd8ef6dd56)
+pipeline-model-definition          Pipeline: Declarative                           2.2184.v0b_358b_953e69 (2.2198.v41dd8ef6dd56)
+pipeline-model-extensions          Pipeline: Declarative Extension Points API      2.2184.v0b_358b_953e69 (2.2198.v41dd8ef6dd56)
+pipeline-rest-api                  Pipeline: REST API Plugin                       2.34
+pipeline-stage-step                Pipeline: Stage Step                            312.v8cd10304c27a_
+pipeline-stage-tags-metadata       Pipeline: Stage Tags Metadata                   2.2184.v0b_358b_953e69 (2.2198.v41dd8ef6dd56)
+pipeline-stage-view                Pipeline: Stage View Plugin                     2.34
+plain-credentials                  Plain Credentials Plugin                        179.vc5cb_98f6db_38
+plugin-util-api                    Plugin Utilities API Plugin                     4.1.0
+prism-api                          Prism API Plugin                                1.29.0-13
+resource-disposer                  Resource Disposer Plugin                        0.23
+scm-api                            SCM API Plugin                                  689.v237b_6d3a_ef7f
+script-security                    Script Security Plugin                          1326.vdb_c154de8669 (1335.vf07d9ce377a_e)
+snakeyaml-api                      SnakeYAML API Plugin                            2.2-111.vc6598e30cc65
+sonar                              SonarQube Scanner for Jenkins                   2.17.2
+ssh-credentials                    SSH Credentials Plugin                          337.v395d2403ccd4
+ssh-slaves                         SSH Build Agents plugin                         2.948.vb_8050d697fec
+sshd                               SSH server                                      3.322.v159e91f6a_550
+structs                            Structs Plugin                                  337.v1b_04ea_4df7c8
+theme-manager                      Theme Manager                                   215.vc1ff18d67920
+thinBackup                         ThinBackup                                      1.19
+timestamper                        Timestamper                                     1.26
+token-macro                        Token Macro Plugin                              400.v35420b_922dcb_
+trilead-api                        Trilead API Plugin                              2.142.v748523a_76693
+variant                            Variant Plugin                                  60.v7290fc0eb_b_cd
+warnings-ng                        Warnings Plugin                                 11.2.2
+workflow-aggregator                Pipeline                                        596.v8c21c963d92d
+workflow-api                       Pipeline: API                                   1291.v51fd2a_625da_7
+workflow-basic-steps               Pipeline: Basic Steps                           1049.v257a_e6b_30fb_d
+workflow-cps                       Pipeline: Groovy                                3894.vd0f0248b_a_fc4
+workflow-durable-task-step         Pipeline: Nodes and Processes                   1336.v768003e07199
+workflow-job                       Pipeline: Job                                   1400.v7fd111b_ec82f
+workflow-multibranch               Pipeline: Multibranch                           773.vc4fe1378f1d5
+workflow-scm-step                  Pipeline: SCM Step                              427.v4ca_6512e7df1
+workflow-step-api                  Pipeline: Step API                              657.v03b_e8115821b_
+workflow-support                   Pipeline: Supporting APIs                       896.v175a_a_9c5b_78f
+ws-cleanup                         Workspace Cleanup Plugin                        0.45

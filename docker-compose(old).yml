@@ -1,0 +1,46 @@
+#version: '3.8'
+name: "jenkins"
+services:
+  jenkins-main:
+    container_name: jenkins_main
+    image: jenkins/jenkins:2.440.2-lts-jdk17
+    privileged: true
+    restart: unless-stopped
+    hostname: "jenkins-main.example.ru"
+    extra_hosts:
+      - "jenkins-main.example.ru:172.10.0.2"
+      - "maildev.example.ru:172.10.0.3"
+    networks:
+      net:
+        ipv4_address: 172.10.0.2
+    ports:
+      - 8080:8080
+      - 50000:50000
+    volumes:
+      - "config:/var/jenkins_home"
+      - "docker_certs:/certs/client"
+
+  maildev:
+    container_name: maildev
+    image: maildev/maildev:2.1.0
+    hostname: "maildev.example.ru"
+    restart: unless-stopped
+    extra_hosts:
+      - "jenkins-main.example.ru:172.10.0.2"
+    networks:
+      net:
+        ipv4_address: 172.10.0.3
+    ports:
+      - 1080:1080 # maildev - web application 
+      - 1025:1025 # jenkins will use 'mail:1025' to send emails
+
+# ALL options(network + volume)
+networks:
+  net:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.10.0.0/16"
+volumes:
+  config:
+  docker_certs:

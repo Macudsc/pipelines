@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jenkins-main
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jenkins-main
+  template:
+    metadata:
+      labels:
+        app: jenkins-main
+    spec:
+      containers:
+        - name: jenkins-main
+          image: jenkins/jenkins:2.440.2-lts-jdk17
+          ports:
+            - containerPort: 8080
+          volumeMounts:
+            - name: config
+              mountPath: /var/jenkins_home
+            - name: docker-certs
+              mountPath: /certs/client
+          resources:
+            requests:
+              cpu: "200m"
+              memory: "256Mi"
+            limits:
+              cpu: "1000m"
+              memory: "4096Mi"

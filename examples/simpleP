@@ -9,7 +9,7 @@ pipeline{
   stages {
     stage('Build') {
       steps {
-        echo "Стапс: ${params.NUKA}"
+        echo "Стапс санитар: ${params.NUKA}"
         //echo ${params.NUKA}
         echo "${env.BUILD_TAG}"
         sh "date"
